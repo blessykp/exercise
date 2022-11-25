@@ -23,6 +23,7 @@
     padding: 16px;
     background-color:skyblue;
     text-align: right;
+    flex-direction: row;
    
     
 }
@@ -184,5 +185,19 @@
     width: 176px;
   }
 }
-
+@media (max-width: 600px) {
+  .reg-container {
+    flex-direction: column;
+  }
+  .reg-left-div {
+    width: 100%;
+    margin: 0px;
+  }
+  .reg-right-div {
+    width: 100%;
+  }
+  .row {
+    flex-direction: column;
+  }
+}
 
